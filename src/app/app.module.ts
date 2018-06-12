@@ -19,13 +19,6 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireFunctionsModule } from 'angularfire2/functions';
 
-// See README for Firebase setup instructions
-// 1. Delete Me!
-import { firebasePlaceholderConfig } from '../env';
-// 2. Add your project credentials to environments/environment.ts
-// 3. Then use it in the imports section below environment.firebase
-
-
 @NgModule({
   declarations: [
     AppComponent
@@ -38,7 +31,7 @@ import { firebasePlaceholderConfig } from '../env';
     UiModule,
     NotesModule,
     UploadsModule,
-    AngularFireModule.initializeApp(firebasePlaceholderConfig, 'firestarter'),
+    AngularFireModule.initializeApp(environment.firebase, 'firestarter'),
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
