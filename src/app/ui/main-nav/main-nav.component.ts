@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'main-nav',
@@ -8,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class MainNavComponent {
 
   show = false;
-
-  constructor() { }
+  router;
+  constructor(private _router: Router) {
+    this.router = _router;
+  }
 
   toggleCollapse() {
     this.show = !this.show;

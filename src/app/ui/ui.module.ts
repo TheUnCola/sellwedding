@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { UserLoginComponent } from './user-login/user-login.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
 import { NotificationMessageComponent } from './notification-message/notification-message.component';
@@ -17,6 +18,7 @@ import { SsrPageComponent } from './ssr-page/ssr-page.component';
   declarations: [
     UserLoginComponent,
     HomePageComponent,
+    LandingPageComponent,
     MainNavComponent,
     LoadingSpinnerComponent,
     NotificationMessageComponent,

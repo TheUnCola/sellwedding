@@ -1,9 +1,7 @@
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation" *ngIf="router != ''">
   <div class="navbar-brand">
-    <a class="navbar-item" routerLink="/">
-      <img src="assets/images/angularfirebase.png" width="30px" alt="Firestarter Angular4 Demo App"/> FireStarter
-    </a>
+    <a class="navbar-item" routerLink="/">SellebrateLove</a>
 
     <a role="button" class="navbar-burger" (click)="toggleCollapse()" [ngClass]="{'is-active': show}">
       <span aria-hidden="true"></span>
@@ -17,12 +15,12 @@
       <a class="navbar-item" routerLink="/login">
         Login
       </a>
-      <a class="navbar-item" routerLink="/ssr">
-        SSR Universal
-      </a>
-      <a class="navbar-item" routerLink="/notes">
-        Firestore
-      </a>
+      <!--<a class="navbar-item" routerLink="/ssr">-->
+        <!--SSR Universal-->
+      <!--</a>-->
+      <!--<a class="navbar-item" routerLink="/notes">-->
+        <!--Firestore-->
+      <!--</a>-->
       <a class="navbar-item" routerLink="/uploads">
         File Uploads
       </a>
