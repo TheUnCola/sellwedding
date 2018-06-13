@@ -12,6 +12,7 @@ export class AppComponent {
 
   router;
   constructor(private auth: AuthService, private _router: Router) {
-    this.router = _router;
+    this.router = _router.url;
+    // console.log(this.router);
   }
 }

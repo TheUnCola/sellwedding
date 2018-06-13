@@ -1,15 +1,15 @@
-<div class="box" >
-  <div *ngIf="auth.user | async; then authenticated else guest">
+<div class="box" *ngIf="auth.user | async; then authenticated">
+  <div *ngIf="auth.user | async; then authenticated">
           <!-- template will replace this div -->
   </div>
 </div>
 
-<!-- User NOT logged in -->
-<ng-template #guest class="box">
-  <h3>Howdy, GUEST</h3>
-  <p class="card-text">Login to get started...</p>
-  <button class="button" routerLink="/login">Login</button>
-</ng-template>
+<!--&lt;!&ndash; User NOT logged in &ndash;&gt;-->
+<!--<ng-template #guest class="box">-->
+  <!--<h3>Howdy, GUEST</h3>-->
+  <!--<p class="card-text">Login to get started...</p>-->
+  <!--<button class="button" routerLink="/login">Login</button>-->
+<!--</ng-template>-->
 
 <!-- User logged in -->
 <ng-template #authenticated>

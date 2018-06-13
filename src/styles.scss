@@ -51,6 +51,12 @@ a {
     }
   }
 
+.no-wrap {
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
   #wrapper {
     display: flex;
     min-height: 100vh;
