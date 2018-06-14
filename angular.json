@@ -23,7 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/hearts.ico",
               "src/assets",
               "src/manifest.json",
               "src/CNAME"
@@ -88,7 +88,7 @@
             ],
             "scripts": [],
             "assets": [
-              "src/favicon.ico",
+              "src/hearts.ico",
               "src/assets",
               "src/manifest.json"
             ]
