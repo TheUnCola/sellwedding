@@ -31,10 +31,6 @@
   <!--</style>-->
   <!--</div>-->
 </div>
-<div *ngIf="router == '/'">
-  <div >
-    <main >
-      <router-outlet></router-outlet>
-    </main>
-  </div>
+<div class="full-screen" *ngIf="router == '/'">
+  <router-outlet></router-outlet>
 </div>

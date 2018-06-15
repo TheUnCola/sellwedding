@@ -11,7 +11,9 @@
     "build:all": "ng build --prod && ng run firestarter:server && npm run webpack:prerender && npm run prerender",
     "serve:prerender": "http-server dist/ -c-1",
     "webpack:prerender": "webpack --config webpack.prerender.config.js",
-    "prerender": "node dist/prerender.js"
+    "prerender": "node dist/prerender.js",
+    "build-git": "ng build --prod --base-href https://sellebratelove.com",
+    "deploy-site": "ngh"
   },
   "private": false,
   "dependencies": {

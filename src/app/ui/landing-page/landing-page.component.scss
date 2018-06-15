@@ -1,30 +1,44 @@
+/* Global Options */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  //display: flex;
+  //justify-content:center;
+  //align-content:center;
+  //flex-direction:column; /* column | row */
+  //display: flex;
+  //align-items: center;justify-content:center;
+}
+
 *[parallax] {
   width: 100%;
-  height: 800px;
+  height: 100%;
 
   background-size: 100%;
 }
+/* End Global Options */
 
-#main-img {
-  background-image: url('../../../assets/images/flowers.jpg');
-  text-align: center;
-}
 
-.main-img-text {
+
+
+/* Main Img Section */
+.main-img-section {
   height:100%;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column; /* column | row */
 }
-.names {
-  text-shadow: 0 0 40px rgba(0,0,0,.25);
-  line-height: 20px;
-  font-size:100px;
-  font-weight: bolder;
-  margin:.5rem;
-  letter-spacing:0;
-  font-family:RainierNorth300,sans-serif;
+#main-img {
+  background: url('../../../assets/images/flowers.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main-img-text {
+  //height:100%;
 }
 h1, h2 {
   text-align: center;
@@ -33,11 +47,19 @@ h1, h2 {
 }
 
 h2 {
-  font-family:RainierNorth300,Georgia;
-  color:#fff;
-  font-size:2.5rem;
+  font-family:RainierNorth300,sans-serif;
+  font-size:40px;
   font-weight:400;
-  margin:.5rem
+  margin:8px;
+}
+.names {
+  text-shadow: 0 0 40px rgba(0,0,0,.25);
+  line-height: 80px;
+  font-size:100px;
+  font-weight: bolder;
+  margin:8px;
+  letter-spacing:0;
+  font-family:RainierNorth300,sans-serif;
 }
 
 .decorative {
@@ -48,6 +70,8 @@ h2 {
   //margin-bottom: 1rem;
 }
 
+/* End Main Img Section */
+
 @font-face{
   font-family:RainierNorth300;
   src:url('../../../assets/RainierNorth300.woff');
@@ -57,13 +81,13 @@ h2 {
 
 
 #mushy-gushy-section {
-  height: 150%;
+  height: 80%;
+  margin:100px 50px 10px 50px;
 }
 
-#our-thoughts {
-  height: 500px;
-  width: 800px;
-  margin:100px auto 0 auto;
+.our-thoughts {
+  height: 200px;
+  width: 100%;
 }
 
 .thoughts-names th {
@@ -76,7 +100,6 @@ h2 {
 }
 
 .thoughts {
-  width:50%;
   word-wrap:break-spaces;
   font-family: proxima-nova,sans-serif;
   color: #8c8c8c;
