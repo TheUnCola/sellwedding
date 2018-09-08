@@ -8,11 +8,11 @@
       "updateMode": "prefetch",
       "urls": [
         "https://sellebratelove.com/index.html",
-        "https://sellebratelove.com/main.1c23abe3189ee8ab44b2.js",
+        "https://sellebratelove.com/main.f38334890a0bc54df9b0.js",
         "https://sellebratelove.com/polyfills.cf535d2993b5def59ab4.js",
         "https://sellebratelove.com/runtime.6afe30102d8fe7337431.js",
         "https://sellebratelove.com/scripts.adf26f25b0fe57f28c39.js",
-        "https://sellebratelove.com/styles.c97f747316850889e693.css"
+        "https://sellebratelove.com/styles.a50a3dcad1494abc7c79.css"
       ],
       "patterns": []
     },
@@ -35,6 +35,7 @@
         "https://sellebratelove.com/assets/images/and.svg",
         "https://sellebratelove.com/assets/images/angularfirebase.png",
         "https://sellebratelove.com/assets/images/autumn-bloom-blossom-226145.jpg",
+        "https://sellebratelove.com/assets/images/avatar.png",
         "https://sellebratelove.com/assets/images/beads-beautiful-bloom-265893.jpg",
         "https://sellebratelove.com/assets/images/car-1.jpg",
         "https://sellebratelove.com/assets/images/car-2.jpg",
@@ -50,7 +51,9 @@
         "https://sellebratelove.com/assets/images/icons/icon-72x72.png",
         "https://sellebratelove.com/assets/images/icons/icon-96x96.png",
         "https://sellebratelove.com/assets/images/main_pic.jpg",
-        "https://sellebratelove.com/assets/images/main_pic2.jpg"
+        "https://sellebratelove.com/assets/images/main_pic2.jpg",
+        "https://sellebratelove.com/assets/images/rings-background.jpg",
+        "https://sellebratelove.com/assets/images/rsvp.png"
       ],
       "patterns": []
     }
@@ -71,6 +74,7 @@
     "https://sellebratelove.com/assets/images/and.svg": "ae616eb1c34177ce1390cad4a45d6d4fa5ebf634",
     "https://sellebratelove.com/assets/images/angularfirebase.png": "7de2d644d53677bd8bf004ce528c06ae0e8d104f",
     "https://sellebratelove.com/assets/images/autumn-bloom-blossom-226145.jpg": "b9e9277a8a172b334ce091c68f76fed96fec75f1",
+    "https://sellebratelove.com/assets/images/avatar.png": "0b26bba23081967f0e9e9d966ae0cd2ffd313403",
     "https://sellebratelove.com/assets/images/beads-beautiful-bloom-265893.jpg": "0943c24ea1565ae3784ca44d14932c030dd44381",
     "https://sellebratelove.com/assets/images/car-1.jpg": "86493e323b62d4d971b571a1eb2e3c78344eacf1",
     "https://sellebratelove.com/assets/images/car-2.jpg": "ae7299ce98b783f2f4d7221935143d3043bd9f72",
@@ -87,12 +91,14 @@
     "https://sellebratelove.com/assets/images/icons/icon-96x96.png": "0250397474e629af71ba9aea2ea69556813abd82",
     "https://sellebratelove.com/assets/images/main_pic.jpg": "58976eb4eb12a215293190252a5ebe51e5cfbafa",
     "https://sellebratelove.com/assets/images/main_pic2.jpg": "7e0b2541af3643962dd384ed2fe285359d06812f",
-    "https://sellebratelove.com/index.html": "3bbd8140d2d9845619a3ef80dafc53cded6c3f7c",
-    "https://sellebratelove.com/main.1c23abe3189ee8ab44b2.js": "cb8dc7b16f0641c368becaf39c438e60b89e8b80",
+    "https://sellebratelove.com/assets/images/rings-background.jpg": "45ff1de1132e9b66bd34d54b6e8884af2cf89617",
+    "https://sellebratelove.com/assets/images/rsvp.png": "96fb405a73006c18c56c44ffe354718309203d2d",
+    "https://sellebratelove.com/index.html": "d2a107b16d0120365ab11bc682e196182861e663",
+    "https://sellebratelove.com/main.f38334890a0bc54df9b0.js": "24421bb3f9be179d7f023b136747af0df45c7f7e",
     "https://sellebratelove.com/polyfills.cf535d2993b5def59ab4.js": "b7e2a904d991459f495b427233e93871eeb45c6b",
     "https://sellebratelove.com/runtime.6afe30102d8fe7337431.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
     "https://sellebratelove.com/scripts.adf26f25b0fe57f28c39.js": "f4f4b2ed79388fd8f7fa290f4527ab66526a8c65",
-    "https://sellebratelove.com/styles.c97f747316850889e693.css": "e8fe5647793c7b984ae085dfc59637d4ba6ac974"
+    "https://sellebratelove.com/styles.a50a3dcad1494abc7c79.css": "fd53fcd668ac924b1de350c981877833d7a0e6ac"
   },
   "navigationUrls": [
     {
