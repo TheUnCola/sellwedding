@@ -36,6 +36,7 @@
     "firebase": "^5.0.2",
     "jquery": "^3.3.1",
     "ngx-parallax": "^4.0.0",
+    "ngx-responsive": "^6.0.0",
     "parallax-js": "^3.1.0",
     "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",

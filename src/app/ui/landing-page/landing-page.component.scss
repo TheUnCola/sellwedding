@@ -23,7 +23,7 @@
 
 
 /* Main Img Section */
-.main-img-section {
+.main-img-section, .launch-site-section {
   height:100%;
 }
 #main-img {
@@ -81,7 +81,7 @@ h2 {
 
 
 #mushy-gushy-section {
-  height: 80%;
+  height: 100%;
   margin:100px 50px 10px 50px;
 }
 
@@ -204,11 +204,34 @@ h2 {
 
 
 
-#launch-site-section {
-  height:800px;
+#launch-site {
+  background: url('../../../assets/images/rings-background.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+.launch-button {
+  background-color: transparent;
+  border-color: #ccc;
+  font-family:RainierNorth300,sans-serif;
+  line-height: 80px;
+  font-size:80px;
+  font-weight: bolder;
+  margin:8px;
+  letter-spacing:0;
+  outline: none;
+  cursor:pointer;
+}
 
+.launch-button:focus {
+  outline: none;
+}
 
 
 
