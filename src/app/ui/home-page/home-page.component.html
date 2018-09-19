@@ -15,7 +15,7 @@
       <div class="card">
         <img class="card-img-top" src="../../../assets/images/rsvp.png">
         <div class="card-body">
-          <p class="card-text">Let us know if you can make it on our special day!</p>
+          <p class="card-text">Check the Invite List</p>
         </div>
       </div>
     </div>
@@ -32,3 +32,9 @@
     <div class="col-lg-1 col-md-4 col-sm-1 col-xs-3"></div>
   </div>
 </div>
+
+<ul>
+  <li *ngFor="let invitee of invitees | async">
+    {{ invitee.name }}
+  </li>
+</ul>
